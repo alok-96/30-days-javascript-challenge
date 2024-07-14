@@ -1,4 +1,4 @@
-// 👉 Activity 1 : Arithmatic Operations
+// 👉 Activity 1 : Arithmetic Operations
 
 // 🧑‍💻 Task 1 : Write a program to add two numbers and log the result to the console.
 let a = 56;
@@ -76,7 +76,7 @@ if (!hasLegInjury) console.log("You can partcipate in race competition.");
 else console.log("You can't partcipate in race competition.");
 
 
-// 👉 Activity 5 : Logical Operators
+// 👉 Activity 5 : Ternary Operator
 
 // 🧑‍💻 Task 14 : Write a program that uses the ternary operator to check if a number is positive or negative
 // and log the result to the console.
