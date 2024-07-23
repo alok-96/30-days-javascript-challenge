@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .hidden {
+      opacity: 0;
+    }
+
+    .container {
+      background-color: #738096;
+      color: #ffffff;
+      padding: 20px;
+    }
+  </style>
+  <body>
+    <p id="paragraph">This is a pragraph.</p>
+    <button id="btn">Click Me to Change the Above Content</button>
+    <br />
+
+    <div style="border: 1px solid black">
+      <p>Double click on the image to change its visibility.</p>
+      <img
+        src="JavaScript-logo.png"
+        alt="image1"
+        height="100px"
+        id="js-image"
+      />
+    </div>
+
+    <div class="container">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum dolor,
+      tenetur eligendi quae delectus impedit animi accusamus cumque cupiditate,
+      reprehenderit excepturi sapiente atque officiis laboriosam itaque! Illum
+      ea quia aliquid.
+    </div>
+
+    <input type="text" id="input-box" />
+    <br />
+    <input type="text" id="input-box2" />
+    <p id="text-container">Text present in input box is :</p>
+
+    <form id="form">
+      <input type="text" name="name" id="" placeholder="Enter your name" />
+      <input type="text" name="age" id="" placeholder="Enter your age" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <select name="" id="dropdown">
+      <option value="" hidden></option>
+      <option value="A">A</option>
+      <option value="B">B</option>
+      <option value="C">C</option>
+      <option value="D">D</option>
+    </select>
+
+    <p id="dropdown-container">Selected Value is :</p>
+
+    <ul id="unordered-list">
+      <li>Apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+      <li>Grapes</li>
+      <li>Gwava</li>
+    </ul>
+
+    <div class="parent">
+      <button id="addChild">Click to add child</button>
+    </div>
+    <script src="10-eventHandling.js"></script>
+  </body>
+</html>
